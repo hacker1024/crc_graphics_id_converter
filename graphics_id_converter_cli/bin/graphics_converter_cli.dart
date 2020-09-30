@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import '../../crc_graphics_id_converter/lib/crc_graphics_converter.dart';
+import 'package:crc_graphics_id_converter/crc_graphics_converter.dart';
 
 void main(List<String> arguments) {
   if (arguments.isEmpty) displayError('Please specify the base ID.');
