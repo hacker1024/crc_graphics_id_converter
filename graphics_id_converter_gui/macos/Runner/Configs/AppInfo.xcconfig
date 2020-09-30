@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = graphics_converter_gui
+PRODUCT_NAME = Graphics ID Converter
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = tk.hacker1024.graphicsConverterGui
+PRODUCT_BUNDLE_IDENTIFIER = tk.hacker1024.graphicsIdConverterGui
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2020 tk.hacker1024. All rights reserved.
