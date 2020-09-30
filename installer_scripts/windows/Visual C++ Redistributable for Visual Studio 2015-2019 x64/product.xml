@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Product xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper" ProductCode="Visual C++ Redistributable for Visual Studio 2015-2019 x64">
+  <PackageFiles>
+    <PackageFile Name="VC_redist.x64.exe"/>
+  </PackageFiles>
+  <InstallChecks>
+    <RegistryCheck Property="Property1" Key="HKLM\SOFTWARE\Microsoft\DevDiv\VC\Servicing\14.0\RuntimeMinimum" Value="Version"/>
+  </InstallChecks>
+  <Commands>
+    <Command PackageFile="VC_redist.x64.exe" Arguments="">
+      <InstallConditions>
+        <BypassIf Property="Property1" Compare="VersionGreaterThanOrEqualTo" Value="14.26.28720"/>
+        <BypassIf Property="VersionNT" Compare="VersionGreaterThanOrEqualTo"/>
+      </InstallConditions>
+      <ExitCodes>
+        <ExitCode Value="0" Result="Success"/>
+        <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure"/>
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>
