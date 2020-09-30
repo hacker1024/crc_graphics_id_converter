@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:crc_graphics_id_converter/crc_graphics_converter.dart';
+import 'package:crc_graphics_id_converter/crc_graphics_id_converter.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
