@@ -1,0 +1,8 @@
+name: crc_graphics_id_converter
+description: A package to do CRC graphic area id conversions.
+version: 1.0.0
+homepage: https://crc_graphics_id_converter.hacker1024.tk
+
+environment:
+  sdk: '>=2.8.1 <3.0.0'
+
